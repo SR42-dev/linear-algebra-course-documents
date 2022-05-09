@@ -1,0 +1,12 @@
+general steps :
+
+- express equations as matrices (Ax = b form)
+- express as [A:b] augmented form
+- perform row operations to convert matrix to a form where pivots = 1 & elements below pivots become 0 (echelon form)
+- write down number of unknowns (n) & ranks of A (after transforms) & A:b (after transforms)
+- rank of a matrix is the number of non zero rows in it's row echelon form
+
+- if rank(A) = rank(A:b) < n : infinite solutions
+- if rank(A) = rank(A:b) = n : unique solution -> back substitute using transformed matrices
+- if rank(A) = rank(A:b) > n : impossible
+- if rank(A) != rank(A:b) : inconsistent

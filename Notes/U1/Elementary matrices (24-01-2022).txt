@@ -1,0 +1,44 @@
+steps to get elementary matrices of A :
+
+- convert A to upper echelon form (U)
+- record the transforms required to do so
+- perform the same transforms on unit matrices (one for one)
+- each transformation on a unit matrix yields an elementary matrix
+
+general :
+
+- if it takes n transformations on A to get U, then applying each transform on an individual unit matrix yields an elementary matrix
+- therefore, n transforms yield n elementary matrices (E)
+- if inversed and multiplied with U, Es can yield og matrix A
+
+triangular factorization :
+
+- A can be factored as A = LU
+- L is a lower triangular matrix (lower echelon form)
+- L is the product of inverted Es of A
+- L is also the inverted product of Es of A
+- factorization not possible when a pivot value becomes 0
+
+LDU factorization :
+
+- A can also be expressed as LDU :
+
+	- L : lower triangular matrix with 1s on diagonal
+	- U : upper triangular matrix with 1s on diagonal
+	- D : diagonal matrix
+
+- to factorize U into DU :
+
+	- divide each row of U by it's pivot
+	- then D is the diagonal of pivots and the new U gives DU
+	- L is obtained as usual in LU factorization
+
+permutation matrices :
+
+- matrices obtained from A by row exchange are permutation matrices of A
+- when a row exchange is performed on A and I, the new I*A gives the original A
+- an nxn matrix has n! permutations and hence n! permutation matrices
+- when a matrix isn't factorizable, multiply it with a permutation where the referenced pivot element is 0 and then factorize
+
+
+

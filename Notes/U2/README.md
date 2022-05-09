@@ -1,0 +1,1 @@
+The remainder of these notes were made offline.

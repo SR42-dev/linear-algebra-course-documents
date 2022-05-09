@@ -1,0 +1,10 @@
+general :
+
+- singular matrix : 
+
+	- |A| = 0
+	- when two or more equations are consistent & the matrix is incurable
+
+- if a pivot element is zero and cannot be made non zero by any transforms : incurable
+- if a pivot element is zero and can be made non zero by any transforms : curable
+

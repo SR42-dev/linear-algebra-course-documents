@@ -1,0 +1,16 @@
+gauss jordan method :
+
+- take [A:I]
+- perform row transforms to get [U:C] (L^-1)
+
+- transform U further to get I :
+
+	- use the bottom rows to make the elements above them zero by subtracting
+	- get a diagonal matrix using these transforms
+	- Use Ri -> kRi transform to reduce diagonal elements to 1s
+	
+- the transformed C will be A^-1
+
+- A matrix A is invertible only if the product of the pivot elements in U form is not equal to zero
+
+

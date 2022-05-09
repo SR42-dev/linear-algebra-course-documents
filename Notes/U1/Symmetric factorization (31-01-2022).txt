@@ -1,0 +1,9 @@
+symmetric factorization :
+
+- A = L D L'
+
+- steps :
+
+	- A = LDU (factorize)
+	- U is automatically = L' if A was symmetric 
+

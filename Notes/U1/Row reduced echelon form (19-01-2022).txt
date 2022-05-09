@@ -1,0 +1,7 @@
+general steps :
+
+- convert matrix to echelon form
+- divide each row by it's pivot element
+- identify the last row having a pivot equal to 1, and let this be the pivot row
+- add multiples of the pivot row to each of the upper rows, until every element above the pivot equals 0
+- moving up the matrix, repeat this process for each row

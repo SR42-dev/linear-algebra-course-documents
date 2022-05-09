@@ -1,0 +1,45 @@
+introduction :
+
+- systems of linear equations
+- linear mappings between vector spaces
+- geometry of n dimensional space & it's linear transformations
+
+- topics :
+	- matrices & gaussian elimination
+	- vector spaces
+	- linear transforms & orthogonality
+	- orthogonalization, eigen values & eigen vectors
+	- singular value decomposition
+
+- system of linear equations matrix notation
+	- coefficient matrix * vector of unknowns = vector of constants
+
+- augmented matrix
+
+- solutions to a system of linear equations :
+	- consistent : unique or infinite solutions
+	- inconsistent : no solution
+
+- elementary transformations :
+	- Ri -> Rj
+	- Ri -> kRj
+	- Ri -> Ri + kRj
+
+- echelon form of a matrix (obtained by transforms):
+	- first non zero element in row is pivot
+	- below each pivot is a column of zeros from elementary ops
+	- each pivot lies to the right of the above row pivot
+	- zero rows at bottom only
+
+- row reduced echelon form
+	- every row in echelon form must be divided by it's pivot
+	- entry above first non zero pivot must be zero (get using transforms)
+
+- equivalent matrices
+	- matrices that can equate to each other with transformations
+
+- row & column picture
+- The singular cases
+
+
+

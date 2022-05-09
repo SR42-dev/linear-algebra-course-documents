@@ -1,0 +1,14 @@
+Types of solutions for a system of LEs :
+
+- trivial solution : x = y = z = 0
+- unique/non-trivial solution
+- infinite solutions : express solutions as functions of k
+- no solutions 
+
+elimination matrix / elementary matrix (l) :
+
+- a matrix which when multiplied with A yields it's echelon form
+- obtained from identity matrix by row transformation of Ri -> Ri - lij*Rj
+- i.e.; I -> Eij
+
+

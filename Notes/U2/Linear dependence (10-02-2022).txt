@@ -1,0 +1,30 @@
+general :
+
+- if 2 vectors can be expressed in the form c1v1 + c2v2 = 0 -> linearly dependent
+- if making an A using 2 vectors gives 2 pivots -> linearly independent
+
+- the columns of a square invertible matrix are always independent
+- the columns of A are independent when N(A) = 0
+- the r non zero rows of U or R are linearly independent
+- The columns of a matrix A of order m x n with m < n are always dependent
+- if any of the vectors in A are 0, then the vectors in A are linearly independent
+
+spanning a subspace :
+
+- if a vector space V  consists of all linear combinations of w1, w2, ... wk, then these vectors span the space
+- u (in v) = c1w1 + c2w2 + ... + ckwk
+- a set of vectors may be able to span a line or 2d plane as well (observe coordinate relation)
+
+basis for a vector space :
+
+- basis for V is a sequence of vectors having two properties at once 
+
+	- few & linearly independent vectors
+	- they span the same space
+
+dimension of a vector space :
+
+- dimension is just a number
+- number of vectors in a basis
+
+

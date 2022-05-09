@@ -1,0 +1,14 @@
+general :
+
+- column space : column space of 𝐴 is a subspace of ℝ𝑚 and contains all the linear combination of the column vectors of 𝐴 
+- row space : row space of 𝐴 is a subspace of ℝ𝑛 and contains all the linear combinations of the rows of 𝐴
+- null space : 𝑁(𝐴) are the null space of 𝐴 consists of all the solutions of the system 𝐴𝑥 = 0
+- left null space : left null spaces of 𝐴 is a subspace of ℝ𝑛 and consists of all the solution to the system 𝐴𝑇𝑥 = 0
+
+- rank nullity theorem : 
+
+	- dim C(A) + dim N(A) = no. of columns; i.e r + ( n-r ) = n
+	- dim C(AT) + dim N(AT) = m; i.e r + ( m- r ) = m
+
+
+

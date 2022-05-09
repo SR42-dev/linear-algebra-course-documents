@@ -1,0 +1,15 @@
+<contd. from elementary matrices>
+
+PA/LU factorization :
+
+- method 1 :
+
+	- convert A to U by row transforms
+	- apply same transforms to I to get P
+	- let PA = C
+	- factorize C to LU
+
+- method 2 :
+
+	- when converting A to U, if elimination fails (a pivot becomes zero), then P is only the last row transform applied on I
+	- factorize PA into LU form

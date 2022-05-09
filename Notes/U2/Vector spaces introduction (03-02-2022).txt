@@ -1,0 +1,41 @@
+general :
+
+- assume a system of LAs Ax = b
+- to bring b to left hand side vector form, vector spaces are required
+- this is an alternative to inversion as non swuare matrices can't be inverted
+
+- for an R^2 to be a vector space, 3 (and by extension 10) axioms have to be fulfilled :
+
+	- vectors u + v = w E R^2 where u E R^2 & v E R^2
+	- u + v = v + u; commutativity
+	- null vector E R^2
+	
+	- u + (v + w) = (u + v) + w
+	- u + 0 = u
+	- u + (-u) = 0
+	- cu = w E R^2
+	- c(u + w) = cu + cv
+	- (c + d)u = cu + du
+	- 1.u = u
+
+- vector space R^2 is 2 dimensional, vector space R^3 is 3 dimensional
+- a vector space R^n can't be 'within' a vector space R^m ; n < m
+
+sub-spaces :
+
+- a single axis in a vector space is a sub-space (H) of that vector space (V)
+
+- conditions to satisfy :
+
+	- The zero vector of V is in H
+	- For each u and v in H, u + v is in H 
+	- For each u in H and each scalar c, cu is in H
+
+- https://classes.engineering.wustl.edu/2009/fall/ese309/sec4_1%20Handout.pdf
+
+- 4 possible sub spaces of a matrix A are useful to solve Ax = b :
+
+	- column space of A
+	- null space of A
+	- left null space of A
+	- row space of A

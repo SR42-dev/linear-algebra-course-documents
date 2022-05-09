@@ -1,0 +1,25 @@
+general :
+
+- in the system Ax = b, if b is null, find null space of A, else column space of A
+- column space in a vector space containing (x1, y1, z1) & (x2, y2, z2)	is a 2D plane passing through those two points
+- if b exists in the column space of A, then the system is solvable (linear combination of LHS vectors)
+- N(A) : zero vector in A
+- column space can also be one of the axes if one of the coordinates are zero
+
+- <definition of column, null & solution spaces>
+- <examples>
+
+- null space/column space is the solution of the system Ax = b given b is/isn't null matrix
+
+- If the rank of a square matrix is equal to it's side, then it's column space is the entire vector space
+- column space can be defined as a line/plane/space passing through the pivot columns of A
+- finding column & null space of a matrix - https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/ax-b-and-the-four-subspaces/column-space-and-nullspace/MIT18_06SCF11_Ses1.6sum.pdf
+- special solution : null space
+
+finding the complete solution for a system of equations :
+
+- Xcomplete = Xparticular + Xnullspace; in Ax = b
+
+- bring system to Rx = d form
+- Xparticular can be found by setting free variables to zero in pv(fv)
+- Xnullspace can be found by solving for Ax = 0
